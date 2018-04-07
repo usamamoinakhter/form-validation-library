@@ -76,7 +76,7 @@ Modify this part in validation.js to modify the behavior on successful and unsuc
 
 
 
-##### Developed by roundCube Labs
+##### Developed by **roundCube Labs**
 Follow us on [facebook](www.facebook.com/roundCubeLabs).
 
 Thank you :)
