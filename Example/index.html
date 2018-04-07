@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation Example</title>
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  	
+		  <script src="../dist/validation.js"></script>  	
+</head>
+<body>
+	<form >
+	  <div class="form-group">
+		<label for="name">Name:</label>
+		<input type="text" class="form-control" id="name" data-valtype="name" >
+	  </div>
+	  <div class="form-group">
+		<label for="email">Email address:</label>
+		<input type="text" class="form-control" id="email" data-valtype="email" >
+	  </div>
+	  <div class="form-group">
+		<label for="number">Number:</label>
+		<input type="text" class="form-control" id="number" data-valtype="number" >
+	  </div>
+	  <div class="form-group">
+		<label for="date">Date:</label>
+		<input type="text" class="form-control" id="date" data-valtype="date" >
+	  </div>
+	  <div class="form-group">
+		<label for="pwd">Password:</label>
+		<input type="password" class="form-control" id="pwd" data-valtype="password" >
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</body>
+</html>
